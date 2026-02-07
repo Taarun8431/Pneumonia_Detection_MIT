@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Large Files/Datasets
+datasets/
+models/*.h5
+models/*.keras
+!models/.gitkeep
+
+# Project specific
+.DS_Store
